@@ -6,7 +6,7 @@ This project explores anomaly detection in synthetic medical claim data using th
 
 The goal was to identify unusual or potentially fraudulent claim records without having any labeled data.
 
-- Total Samples: 10,000 (synthetic medical claim data)
+- Total Samples: 5,000 (synthetic medical claim data)
 - Algorithm Used: Isolation Forest
 - Contamination Parameter: `0.01`
 
