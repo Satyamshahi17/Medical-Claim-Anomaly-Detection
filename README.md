@@ -19,7 +19,6 @@ The goal was to identify unusual or potentially fraudulent claim records without
 
 2. **Applied Gaussian Transformation**
    - Used `PowerTransformer` to make the data distribution closer to Gaussian.
-   - This led to significantly more anomalies being detected (as expected).
    - Helped make the anomaly boundaries more consistent.
 
 3. **Dimensionality Reduction**
@@ -28,6 +27,7 @@ The goal was to identify unusual or potentially fraudulent claim records without
    - Reverted to using 2D PCA visualization for better clarity.
 
 4. **Visualization**
+   - Plotted Frequency vs Anomaly score distribution histogram.
    - 2D scatter plots were used to observe data structure and anomaly spread.
    - Plotted anomalies vs normal points to understand data behavior post-transformation.
 
